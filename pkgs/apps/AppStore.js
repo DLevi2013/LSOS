@@ -168,8 +168,8 @@ export default {
     let hasLoaded = false,
       externalMessageQueue = [],
       appListing = [],
-      host = "https://zeondev.github.io/Pluto-AppStore/",
-      repoHost = "https://github.com/zeondev/Pluto-AppStore/blob/main/pkgs/";
+      host = "https://dlevi2013.github.io/LSOS-AppStore",
+      repoHost = "https://github.com/dlevi2013/LSOS-AppStore/blob/main/pkgs/";
 
     try {
       new Html("div").class("row", "fc").text("Loading...").appendTo(container);
